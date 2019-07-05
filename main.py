@@ -1,8 +1,6 @@
 """
 @Project: Feeding Fred
-@Version: 1.2
 @Author: Alwin Prabu
-@School: Watford UTC
 """
 #Dependencies:
 #   users.txt  - user database
