@@ -4,7 +4,7 @@ A cross platform casual game  - Using Python
 ---------------------------------------------
 Context:
 
-I have been asked to write a computer game that will appeal to children aged around 6-12. The game involves navigating a character around an area collecting items and avoiding hazards.
+I have been asked to write a game that will appeal to children aged around 6-12. The game involves navigating a character around an area collecting items and avoiding hazards.
 
 Game Description:
 
