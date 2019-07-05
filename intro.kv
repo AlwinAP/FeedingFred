@@ -1,0 +1,28 @@
+#:kivy 1.0
+
+<FredLifeIntro>:
+    go_btn: button
+    help_btn: help
+    level_btn: level
+
+    source: "images/welcome.png"
+    size: self.size
+
+    BoxLayout:
+        spacing: 10
+        orientation: 'vertical'
+        center: root.center_x, self.height / 2 + 20
+
+        Button:
+            id: help
+            text: "HowToPlay?"
+
+        Button:
+            id: button
+            text: "Feed Fred! "
+
+        Button:
+            id: level
+            text: "Choose Level"
+            on_release: root.toggle_level()
+

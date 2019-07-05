@@ -1,0 +1,32 @@
+#:kivy 1.0
+
+<FredLifeIntro>:
+    go_btn: button
+    go2_btn: button2
+    go3_btn: button3
+    help_btn: help
+
+    source: "images/welcome.png"
+    size: self.size
+
+    BoxLayout:
+        spacing: 10
+        orientation: 'vertical'
+        center: root.center_x, self.height / 2 + 20
+
+        Button:
+            id: help
+            text: "HowToPlay?"
+
+        Button:
+            id: button
+            text: "Beginner"
+
+        Button:
+            id: button2
+            text: "Normal"
+
+        Button:
+            id: button3
+            text: "Expert"
+
